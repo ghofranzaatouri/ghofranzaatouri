@@ -16,7 +16,7 @@ node {
            withDockerRegistry([ credentialsId: "dockerHUB", url: "" ]) {   
          
          sh 'docker push asscmaster96/k8s-jenkins:NET-$BUILD_NUMBER'
-         // sh 'docker push k8s-jenkins/odoo:latest'
+         // sh 'docker push asscmaster96/odoo:latest'
         // token from docker hub
     }
     }
