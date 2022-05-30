@@ -2,7 +2,7 @@ node {
               
     stage('Git clone') {
          
-            git branch: 'main', credentialsId: 'jenkins', url: 'git@github.com:ghofranzaatouri/jenkines.git'
+            git branch: 'master', credentialsId: 'jenkins', url: 'git@github.com:ghofranzaatouri/jenkines.git'
                //generate pair key jenkins private github public 
     }
        
